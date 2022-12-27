@@ -13,13 +13,13 @@ function divide(a,b) {
     return a/b
 }
 function sin(a) {
-    return Mat.sin(a)
+    return Math.sin(a)
 }
 function cos(a) {
-    return Mat.cos(a)
+    return Math.cos(a)
 }
 function tan(a) {
-    return Mat.tan(a)
+    return Math.tan(a)
 }
 function random(length = 8) {
     let x =crypto.randomBytes(length).toString('hex');

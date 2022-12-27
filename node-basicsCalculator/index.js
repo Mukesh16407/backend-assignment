@@ -11,6 +11,7 @@ if (args.length < 1) {
 const operation = args[0];
 const operands = args.slice(1).map(Number);
 
+
 switch (operation) {
     case 'sum':
         console.log(sum(...operands));
